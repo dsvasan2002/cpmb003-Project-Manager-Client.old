@@ -1,6 +1,4 @@
-
-
-@import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-header',
@@ -8,10 +6,12 @@
     styleUrls: ['./header.component.css']
 })
 
-export class NameComponent implements OnInit {
-    isNavbarCollapsed=true;
+export class HeaderComponent implements OnInit {
+    //isNavbarCollapsed=true;
 
     constructor() { }
 
-    ngOnInit() { }
+    ngOnInit() {
+        console.log("header component");
+     }
 }
